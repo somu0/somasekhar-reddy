@@ -1,0 +1,46 @@
+p.somu:first-letter{
+    color: aqua;
+   
+    font-size: 100px;
+    display:block;
+    line-height:0.5;
+    float: left;
+    margin: 15px 15px 10px 0;
+}
+div{
+    margin:auto;
+    width: 50%;
+  
+    border:3px solid #73AD21;
+    padding: 20px;
+  
+}
+h1{
+    color: darkblue;
+  
+    margin-top: 50px;
+    text-align: center;
+   
+}
+p1{
+    color: wheat;
+}
+p2{
+    color: yellow;
+}
+p3{
+    color: deepskyblue;
+}
+p4{
+    color: mediumspringgreen;
+}
+p5{
+    color: moccasin;
+}
+p6{
+    color: palegreen;
+}
+body{
+    background-color: rgb(255, 240, 252);
+}
+
