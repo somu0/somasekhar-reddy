@@ -1,0 +1,41 @@
+body{
+    background-color: aqua;
+}
+.title{
+    color: darkseagreen;
+}
+table{
+    background-color: deeppink;
+}
+
+
+  
+
+.reddy{
+    background-color: gold;
+    color: purple;
+
+}
+.poli{
+    background-color: royalblue;
+    color: blue;
+}
+.somu{
+    color: seagreen;
+    background-color: slategray;
+}
+.sai{
+    color: snow;
+    background-color: teal;
+}
+.raja{
+    color: whitesmoke;
+    background-color: orchid;
+}
+div{
+    color: sienna;
+}
+#sree{
+    background-color: black;
+}
+
