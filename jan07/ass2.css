@@ -1,0 +1,55 @@
+.somu{
+    background-color: burlywood;
+    overflow: hidden;
+}
+.somu a{
+    float: left;
+    color: chocolate;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.somu a:hover{
+    background-color: darkgreen;
+    color: darkred;
+}
+.somu a:active{
+
+    color: deeppink;
+    background-color: lightseagreen;
+}
+.somu a:focus{
+    color: palegreen;
+    background-color: peru;
+}
+#sai{
+    border-radius: 50%;
+    padding-top: 50px;
+    padding-left: 60px;
+    border: 10px solid transparent;
+}
+body{
+    background-color: rosybrown;
+}
+p{
+    color: seagreen;
+    
+}
+p::first-letter{
+    color: aqua;
+   
+    font-size: 100px;
+    display:block;
+    line-height:0.5;
+    float: left;
+    margin: 15px 15px 10px 0;
+}
+#reddy{
+    border-radius: 50%;
+    padding-top: 50px;
+    padding-left: 60px;
+    border: 10px solid transparent;
+}
+
