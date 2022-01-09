@@ -1,0 +1,39 @@
+article{
+    margin: auto;
+    margin-top: 200px;
+    width: 150px;
+    height: 200px;
+    border: 1px solid transparent;
+    background-color: tomato;
+
+}
+#triangle-1{
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 60px solid blueviolet;
+    position: relative;
+    
+}
+#triangle-2{
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 60px solid rgb(147, 226, 43);
+    position: relative;
+    
+}
+#triangle-3{
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 60px solid rgb(226, 43, 43);
+    position: relative;
+    
+}
