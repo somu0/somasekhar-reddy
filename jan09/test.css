@@ -1,0 +1,107 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+}
+.somu{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -2%;
+    padding-left: 2%;
+}
+.sai{
+    width: 75%;
+    
+    box-sizing: border-box;
+    justify-content:flex-start;
+    display: flex;
+
+}
+#reddy{
+    margin-top: -2%;
+    margin-left: 0.5%;
+    color: rgb(105, 97, 97);
+}
+nav{
+    width: 25%;
+    justify-content: space-between;
+    display: flex;
+    font-size: 1.2rem;
+    font-size: 100;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 5%;
+
+}
+.leftside{
+    margin-left: -15%;
+    text-align: justify;
+}
+.leftside h1{
+    font-size: 3rem;
+    font-weight: 200;
+    
+}
+.leftside p{
+    margin-top: 2%;
+    font-size: 1.2rem;
+    color: rgb(155, 144, 144);
+
+}
+.button-shape{
+    margin: 10%;
+}
+.button-shape button{
+    width: 20vh;
+    height: 5vh;
+    color:whitesmoke;
+    background-color: blue;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+input[type ="text"]{
+    width: 20vh;
+    height: 5vh;
+    background-color: whitesmoke;
+    margin-left: 3%;
+}
+.last{
+    margin-top: 7%;
+
+}
+.last a{
+    text-decoration: none;
+    color: turquoise;
+}
+
+.rightside{
+    text-align: center;
+    margin-left: -10%;
+    
+}
+
+.image-meet{
+    height: 330px;
+    width: 330px;
+}
+img{
+    border: none;
+   
+    margin-top: -3%;
+}
+.center{
+    margin-top: 3%;
+
+}
