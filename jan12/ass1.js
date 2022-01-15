@@ -1,0 +1,10 @@
+let likebutton=document.querySelector('#likebutton');
+            let dislikebutton=document.querySelector('#dislikebutton');
+            let input1=document.querySelector('#input1');
+            let input2=document.querySelector('#input2');
+            likebutton.addEventListener('click',()=>{
+                input1.value=parseInt(input1.value) + 1;
+                input1.style.color="#12ff00"})
+            dislikebutton.addEventListener('click',()=>{
+                input2.value=parseInt(input2.value) + 1;
+                input2.style.color="#ff0000"})
