@@ -1,0 +1,43 @@
+
+body{
+    background-color: mediumvioletred;
+}.somu{
+    text-align: center;
+    font-size: 50px;
+}
+.reddy{
+    height: 410px;
+    width: 410px;
+    background-color: cornflowerblue;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    border-radius: 10px;
+    padding: 50px 35px;
+    border: 2px solid chartreuse;
+    box-shadow: 0 0 40px tomato;
+}
+#output{
+    height: 50px;
+    width: 95%px;
+    background-color: violet;
+    border-radius: 5px;
+    padding=0 10px;
+    font-size: 35px;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    width: 42px;
+    height: 42px;
+    background-color: orangered;
+    border-radius: 5px;
+    border-color: red;
+    border-width: 1px;
+    font-weight: 300;
+    margin: 16px 36px 0 0;
+    box-shadow: yellow;
+}
+button:hover{
+    background-color: mediumvioletred;
+}
