@@ -1,0 +1,46 @@
+body{
+    background-color: cadetblue;
+    padding: 30px;
+}
+#raju{
+    font-size: 24px;
+    color: coral;
+}
+#sai{
+    margin: 24px 0;
+}
+input{
+    padding: 5px;
+    width: 240px;
+    max-width: 100%;
+}
+button{
+    padding: 6px 12px;
+    background-color: darkseagreen;
+    color: deeppink;
+}
+.contact-entry{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px;
+}
+.name-initial{
+    width: 30px;
+    height: 36px;
+
+    border-radius: 18px;
+    background-color: rgb(0, 255, 136);
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+}
+.full-name{
+    font-size: 24px;
+    margin-left: 8px;
+    border-bottom: 1px solid chocolate;
+    padding: 6px;
+    flex-grow: 1;
+}
