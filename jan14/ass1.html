@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="ass1.css" />
+        <title>Calculator</title>
+        <meta charset="UTF-8" />  
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    </head>
+    <body>
+        <h2 class="somu">SCIENTIFIC CALCULATOR</h2>
+            <div class="reddy">
+            <div name="calculator">
+                <p id="output"></p>
+                <br/>
+                <button onclick='concatNumber("1");'>1</button>
+                <button onclick='concatNumber("2");'>2</button>
+                <button onclick='concatNumber("3");'>3</button>
+                <button onclick='setOperator("-");'>-</button>
+                <button onclick="clearAll();">C</button>
+        <br/>
+                <button onclick='concatNumber("4");'>4</button>
+                <button onclick='concatNumber("5");'>5</button>
+                <button onclick='concatNumber("6");'>6</button>
+                <button onclick='setOperator("+");'>+</button>
+                <button onclick="clearAll();">CE</button>
+        <br/>
+                <button onclick='concatNumber("7");'>7</button>
+                <button onclick='concatNumber("8");'>8</button>
+                <button onclick='concatNumber("9");'>9</button>
+                <button onclick='concatNumber("0");'>0</button>
+        <br/>
+                
+                <button onclick='setOperator("/");'>/</button>
+                <button onclick='setOperator("*");'>*</button>
+                <button onclick='equals("=");'>=</button>
+                <button onclick="deleteLastDigit();">⬅</button>
+                
+
+        <script src="ass1.js"></script>
+
+            </div>
+            </div>
+</body>
+</html>
