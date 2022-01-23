@@ -109,7 +109,7 @@ button{
     float: right;
     margin-top: -39%;
     margin-right: 3%;
-    color: blue;
+    color:slateblue;
 }
 #pic4{
     float: right;
@@ -128,7 +128,7 @@ button{
     float: right;
     margin-top: -31%;
     margin-right: 3%;
-    color: blue;
+    color:tomato;
 }
 
 #pic5{
@@ -148,7 +148,7 @@ button{
     float: right;
     margin-top: -23%;
     margin-right: 3%;
-    color: blue;
+    color:seagreen;
 }   
 #para{
     margin-right: 2%;
@@ -159,4 +159,7 @@ button{
     margin-right: 7%;
     float: right;
     margin-top: -12%;
+}
+*{
+    background-image: linear-gradient(180deg,#e6ed0c,#12dec9);
 }
