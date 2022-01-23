@@ -1,0 +1,162 @@
+#instapic{
+    margin-left: 55px;
+    margin:auto;
+    width: 55%;
+  
+    border:solid black;
+    padding: 20px;
+}
+#mpic{
+    height: 400px;
+    width:400px;
+    border: 5px solid #000000;
+    margin-top: 15px;
+    align-items: center;
+    
+}
+button{
+    border: 1px solid transparent;
+    background-color: transparent;
+    color: black;
+}
+#search{
+    margin-left: 25%;
+    margin-top: -4%;
+}
+#icon{
+    margin-left: 20%;
+}
+#p1{
+    border-radius:50% ;
+    height: 5%;
+    width: 5%;
+
+}
+#collection{
+    margin-left: 38%;
+}
+#name{
+    margin-left: 7%;
+    margin-top: -3%;
+    
+}
+#p2{
+    float: right;
+    border-radius:50% ;
+    height: 6%;
+    width: 6%;
+    margin-top: -60%;
+    margin-right: 40%;
+
+}
+#name1{
+    margin-right: 25%;
+    float: right;
+    margin-top: -59%;
+}
+#switch{
+    float: right;
+    margin-top: -59%;
+    color: blue;
+    margin-right: 3%;
+
+}
+
+#sfy{
+    float: right;
+    margin-top: -53%;
+    color: grey;
+    margin-right: 30%;
+}
+#see{
+    float: right;
+    margin-top: -53%;
+    margin-right: 3%;
+}
+#pic2{
+    float: right;
+    border-radius:50% ;
+    height: 5%;
+    width: 5%;
+    margin-top: -48%;
+    margin-right: 40%;
+}
+#pic2name{
+    margin-right: 25%;
+    float: right;
+    margin-top: -47%;
+}
+#f1{
+    float: right;
+    margin-top: -47%;
+    margin-right: 3%;
+    color: blue;
+}
+#pic3{
+    float: right;
+    border-radius:50% ;
+    height: 5%;
+    width: 5%;
+    margin-top: -40%;
+    margin-right: 40%;
+}
+#pic3name{
+    margin-right: 25%;
+    float: right;
+    margin-top: -39%;
+}
+#f2{
+    float: right;
+    margin-top: -39%;
+    margin-right: 3%;
+    color: blue;
+}
+#pic4{
+    float: right;
+    border-radius:50% ;
+    height: 5%;
+    width: 5%;
+    margin-top: -32%;
+    margin-right: 40%;
+}
+#pic4name{
+    margin-right: 25%;
+    float: right;
+    margin-top: -31%;
+}
+#f3{
+    float: right;
+    margin-top: -31%;
+    margin-right: 3%;
+    color: blue;
+}
+
+#pic5{
+    float: right;
+    border-radius:50% ;
+    height: 5%;
+    width: 5%;
+    margin-top: -24%;
+    margin-right: 40%;
+}
+#pic5name{
+    margin-right: 25%;
+    float: right;
+    margin-top: -23%;
+}
+#f4{
+    float: right;
+    margin-top: -23%;
+    margin-right: 3%;
+    color: blue;
+}   
+#para{
+    margin-right: 2%;
+    float: right;
+    margin-top: -17%;
+}
+#last{
+    margin-right: 7%;
+    float: right;
+    margin-top: -12%;
+}
