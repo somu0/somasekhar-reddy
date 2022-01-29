@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right,seagreen,#1248a1);
+}
+.input-form input{
+    padding: 8px 50px;
+    margin-right: 5px;
+    border-radius: 25px 25px;
+    background-image: linear-gradient(to right,#15cde6,#15e653);
+    color: deeppink;
+}
+#button{
+    padding: 6px 5px;
+    border-radius: 50px 50px;
+    
+}
+h1{
+    color: darkred;
+}
