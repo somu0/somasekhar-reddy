@@ -1,0 +1,11 @@
+*{
+    background: linear-gradient(to right,seagreen,rgb(88, 50, 175));
+}
+main{
+   text-align: center;
+   color: brown;
+}
+#dec{
+    color: chartreuse;
+    background-color: blue;
+}
