@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>sort an array</h1>
+    <script>
+        var sortArray = function(nums) {
+    if (nums === null || nums.length === 0) return;
+    let temp = [];
+    mergeSort(nums, 0, nums.length - 1, temp);
+    return nums;
+};
+
+function mergeSort(nums, start, end, temp) {
+    if (start >= end) return;
+    
+    mergeSort(nums, start, Math.floor((start + end) / 2), temp);
+    
+    mergeSort(nums, Math.floor((start +end) / 2) + 1, end, temp);
+    
+    merge(nums, start, end, temp);
+}
+
+function merge(nums, start, end, temp) {
+    let mid = Math.floor((start + end) / 2);
+    let l_index = start;
+    let r_index = mid + 1;
+    let index = start;
+    while (l_index <= mid && r_index <= end) {
+        if (nums[l_index] < nums[r_index]) {
+            temp[index++] = nums[l_index++];
+        } else {
+            temp[index++] = nums[r_index++];
+        }
+    }
+    while (l_index <= mid) {
+        temp[index++] = nums[l_index++];
+    }
+    while (r_index <= end) {
+        temp[index++] = nums[r_index++];
+    }
+    for (let i = start; i <= end; i++) {
+        nums[i] = temp[i];
+    }
+}
+    </script>
+    <h1>sort colors</h1>
+    <script>
+        var sortColors = function(nums) {
+  var counts = [0, 0, 0];
+  var len = nums.length;
+  for (var i = 0; i < len; i++) {
+    counts[nums[i]]++;
+  }
+  for (var j = 0; j < len; j++) {
+    nums[j] = j < counts[0] ? 0 : (j < counts[0] + counts[1] ? 1 : 2);
+  }
+};
+    </script>
+    
+</body>
+
+</html>
