@@ -1,0 +1,139 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>"1. Find the frequency of an element in a sorted array with duplicates present. for eg:
+        [1,1,2,2,4,5,5,6,6,6,6,9,10,11] and target = 6 using binary search. </h1>
+    <script>
+        let occurance = function (somu, tar, flag) {
+            let result = -1;
+            let start = 0;
+            let end = somu.length - 1;
+            while (start <= end) {
+                let mid = Math.floor((start + end) / 2);
+                if (somu[mid] === tar) {
+                    result = mid;
+                    if (flag === true) {
+                        end = mid - 1;
+
+                    } else {
+                        start = mid + 1;
+                    }
+                } else if (somu[mid] < tar) {
+                    start = mid + 1;
+
+                } else {
+                    end = mid - 1;
+
+                }
+
+
+            }
+            return result;
+        }
+        let somu = [1, 1, 2, 2, 4, 5, 5, 6, 6, 6, 6, 9, 10, 11];
+        let tar = 6;
+        let lowerindex = occurance(somu, tar, false);
+        let upperindex = occurance(somu, tar, true);
+        console.log(lowerindex - upperindex + 1);
+
+    </script>
+    <h1>2. For the given array = ['a','b','d','e','f','g','h','i','x','z'] use binary search to find the target element
+        = 'z'.</h1>
+    <script>
+        function binarySearch(arr, x) {
+
+            let l = 0, r = arr.length - 1;
+
+            while (l <= r) {
+
+                let m = l + Math.floor((r - l) / 2);
+
+
+
+                let res = x.localeCompare(arr[m]);
+
+
+
+
+
+                if (res == 0)
+
+                    return m;
+
+
+
+
+
+                if (res > 0)
+
+                    l = m + 1;
+
+
+
+
+
+                else
+
+                    r = m - 1;
+
+            }
+
+
+
+            return -1;
+        }
+
+
+        let arr = ['a', 'b', 'd', 'e', 'f', 'g', 'h', 'i', 'x', 'z'];
+
+        let x = 'z';
+        let result = binarySearch(arr, x);
+
+        if (result == -1)
+
+            document.write("Element not present<br>");
+        else
+
+            document.write("Element found at "
+
+                + "index " + result + "<br>");
+    </script>
+    <h1>3. Given a sorted array of non-negative distinct integers, find the smallest missing non-negative element in it.
+        Input: nums[] = [0, 1, 2, 6, 9, 11, 15]
+        Output: The smallest missing element is 3</h1>
+    <script>
+        function findMissing(arr) {
+            var low = 0;
+            var high = arr.length;
+            while (low <= high) {
+                var mid = Math.floor((low + high) / 2);
+                if ((arr[mid] - mid === 1) && (arr[mid + 1] - (mid + 1) === 2)) return arr[mid] + 1;
+                if (arr[mid] - mid === 1) {
+                    low = mid + 1;
+                } else {
+                    high = mid - 1;
+                }
+            }
+            return -1;
+        }
+
+
+
+        let ar = [0, 1, 2, 6, 9, 11, 15];
+        document.write("Missing number: " + findMissing(3));
+    </script>
+    <a href="ass2.html">28 feb</a>
+    
+
+
+
+</body>
+
+</html>
