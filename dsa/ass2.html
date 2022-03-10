@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>two sum input array is sorted</h1>
+    <script>
+        var twoSum = function(numbers, target) {
+    let l = 0;
+    let r = numbers.length - 1;
+    while (l < r) {
+        let sum = numbers[l] + numbers[r];
+        if (sum === target) break;
+        else if (sum > target) r--;
+        else l++;
+    }
+    
+    return [l + 1, r + 1];
+};
+    </script>
+    <h1>insertion of two arrays</h1>
+    <script>
+        var intersection = function (nums1, nums2) {
+  const set1 = new Set(nums1);
+  const set2 = new Set(nums2);
+
+  const arr = [];
+
+  for (let val of set1) {
+    if (set2.has(val)) {
+      arr.push(val)
+    }
+  }
+
+  return arr;
+};
+    </script>
+    <a href="ass3.html">4 march</a>
+    
+</body>
+</html>
