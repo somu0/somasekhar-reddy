@@ -1,0 +1,66 @@
+body{
+    background-color: lightsalmon;
+}
+.maindiv{
+    width: 90%;
+    height : 650px;
+    margin: 70px auto;  
+    background-color: white;
+    box-shadow: 0px 0px 10px;
+}
+h2{
+    padding: 14px 16px;
+    margin-left: 100px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: sandybrown;
+    
+}
+.list{
+    display: flex;
+   
+    list-style-type: none;
+    margin: 7px;
+}
+
+.img{
+margin-left: 250px;
+
+}
+.btn{
+    float: right;
+    margin-right: 100px;
+    gap: 0px;
+    margin-bottom: 30px 30px;
+    
+}
+#para{
+    margin-top: 20px;
+    margin-left: 250px;
+}
+#content{
+    width: 25%;
+    text-align: start;
+    margin-top: 200px;
+    margin-left: 20px;
+    position: fixed;
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+   
+}
+.seconddiv{
+    display: flex;
+    margin-top: 20px;
+}
+li a{
+    display: block;
+    color: #666;
+    text-align: center;
+     padding: 14px 16px;
+      text-decoration: none !important ;
+}ection-2{
+  
+}
